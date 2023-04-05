@@ -37,8 +37,13 @@ class PhoneNumberInformation:
             self.timezone = timezone.time_zones_for_number(pn)
             self.carrier = carrier.name_for_number(pn, "pl")
             print(f"\n Phone number: {phone_number}\n Country code: {self.country_code}\n Country name: {self.country_name}\n Is valid?: {self.valid}\n Is possible?: {self.possible}\n Potential timezone: {self.timezone}\n Potential carrier: {self.carrier}")
-        
-        
+
+
+
+# Soon to be replaced with Graphic Interface:
+
+
+
 # print("\n (  `                    )           (    (                \n )\))(      )         ( /( (         )\   )\    )  (  (    \n((_)()\  ( /(   (     )\()))\  (   (((_) ((_)( /(  )\))(   \n(_()((_) )(_))  )\ ) (_))/((_) )\  )\___  _  )(_))((_)()\  \n|  \/  |((_)_  _(_/( | |_  (_)((_)((/ __|| |((_)_ _(()((_) \n| |\/| |/ _` || ' \))|  _| | |(_-< | (__ | |/ _` |\ V  V / \n|_|  |_|\__,_||_||_|  \__| |_|/__/  \___||_|\__,_| \_/\_/\n")
 # print("Welcome to MantisClaw. Select desired function:\n 1. Phone number OSINT\n")
 # function = int(input())
