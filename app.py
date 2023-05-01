@@ -6,7 +6,7 @@ def click_action(button):
 
 root = Tk()
 root.title('Mantisclaw')
-root.geometry("1920x1080")
+root.geometry("1000x800")
 
 
 label = Label(root, text="Welcome to Mantisclaw", font=42, fg="Black")
