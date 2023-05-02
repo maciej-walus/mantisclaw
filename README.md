@@ -16,4 +16,4 @@ And maybe even more with time, we'll see. For now, my primary focus is on cleani
 
 # how to deploy
 
-Clone the directory and run and compile main.py
+Clone the directory, run and compile main.py
