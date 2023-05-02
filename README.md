@@ -12,3 +12,8 @@ Plans, hopes and dreams:
 - Username finder
 
 And maybe even more with time, we'll see. For now, my primary focus is on cleaning and improving the code of current features.
+
+
+# how to deploy
+
+Clone the directory and run and compile main.py
