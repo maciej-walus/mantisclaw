@@ -28,26 +28,33 @@ def mantisclaw():
                     case 3:
                         if len(pni.stored_phone_numbers) == 0:
                             print("\nNo phone numbers inserted into the table.")
-                            break
-
-                        if len(pni.stored_phone_numbers) > 0:
-                            print("\nProceed with all phone numbers inserted into the table?\n Yes \ No")
-                            selection = str(input).lower()
-                            match input:
-                                case "yes":
+                        else:
+                            print("\nProceed with all phone numbers inserted into the table? \n1. Yes \n2. No, let me pick a specific number")
+                            selection = int(input())
+                            match selection:
+                                case 1:
                                     for _ in range(len(pni.stored_phone_numbers)):
                                         pni.information(pni.stored_phone_numbers[_])
-                                case "no":
+
+                                case 2:
                                     print("Insert the index of desired phone number:")
                                     index = int(input())
                                     try:
                                         pni.information(pni.stored_phone_numbers[index])
                                     except:
                                         print("Invalid index.")
+                                case other:
+                                    print("Select a valid option.")
 
                     case 4:
                         shutdown = True
                         print("\nInto the darkness I descend...")
+
+                    case other:
+                        print("Select a valid option.")
+
+        case other:
+            print("Select a valid option.")
 
 
 if __name__ == '__main__':
