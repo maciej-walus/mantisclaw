@@ -1,7 +1,9 @@
 # mantisclaw
+![alt text](https://github.com/maciej-walus/mantisclaw/blob/main/mantisclaw.png)
+
 Simple Python OSINT application. Currently implemented features:
 
-- Providing some basic information about a phone number
+- Providing some basic information about inserted phone number(s)
 
 Plans, hopes and dreams:
 
