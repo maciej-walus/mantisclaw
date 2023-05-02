@@ -21,7 +21,7 @@ def mantisclaw():
                         if len(pni.stored_phone_numbers) != 0:
                             print("\nPhone numbers inserted into the table:")
                             for _ in range(len(pni.stored_phone_numbers)):
-                                print (pni.stored_phone_numbers[_])
+                                print(pni.stored_phone_numbers[_])
                         else:
                             print("\nNo phone numbers inserted into the table.")
 
@@ -40,7 +40,10 @@ def mantisclaw():
                                 case "no":
                                     print("Insert the index of desired phone number:")
                                     index = int(input())
-                                    pni.information(pni.stored_phone_numbers[index])
+                                    try:
+                                        pni.information(pni.stored_phone_numbers[index])
+                                    except:
+                                        print("Invalid index.")
 
                     case 4:
                         shutdown = True
