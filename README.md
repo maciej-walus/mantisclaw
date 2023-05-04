@@ -1,7 +1,7 @@
 # mantisclaw
 ![alt text](https://github.com/maciej-walus/mantisclaw/blob/main/icon.png)
 
-Simple Python OSINT application. Currently implemented features:
+Simple Python OSINT/Cybersecurity application. Currently implemented features:
 
 - Providing some basic information about inserted phone number(s)
 
