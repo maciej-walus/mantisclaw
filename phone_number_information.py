@@ -6,6 +6,10 @@ from phonenumbers import timezone
 class phone_number_information:
 
     def __init__(self):
+        self.region_code = None
+        self.country_name = None
+        self.timezone = None
+        self.carrier = None
         self.stored_phone_numbers = []
 
     def save_phone_number(self, phone_number):
