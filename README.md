@@ -10,6 +10,7 @@ Plans, hopes and dreams:
 - GUI
 - IP address checker
 - Username finder
+- Malicious webside blocker
 
 And maybe even more with time, we'll see. For now, my primary focus is on cleaning and improving the code of current features.
 
